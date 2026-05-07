@@ -13,8 +13,43 @@
         flex: 100%;
       }
     }
-    
+
     .responsive-image {
-      max-width: 100%;
+      max-width: 50%;
       height: auto;
+    }
+
+    .media-query-box {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    @media (max-width: 600px) {
+      .media-query-box {
+        background-color: rgb(248, 0, 0);
+      }
+    }
+    
+    @media (min-width: 601px) {
+      .media-query-box {
+        background-color: rgb(224, 86, 6);
+      }
+    }
+
+    .responsive-nav .nav-list {
+      display: flex;
+      list-style: none;
+       gap: 20px;
+    padding: 0;
+    margin: 0;
+    }
+    
+    @media (max-width: 600px) {
+      .responsive-nav .nav-list {
+        display: none;
+      }
+    
+      .responsive-nav .menu-toggle {
+        display: block;
+      }
     }
