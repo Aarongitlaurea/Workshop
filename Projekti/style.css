@@ -154,6 +154,7 @@ body {
     object-fit: contain;
 }
 
+
 @media (max-width: 768px) {
     .navbar-nav {
         gap: 2px;
@@ -229,5 +230,8 @@ body {
     .ttk-logo {
         width: 70px;
         height: auto;
+    }
+    .card-img-top {
+        padding: 50px;
     }
 }
