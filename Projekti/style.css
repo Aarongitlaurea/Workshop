@@ -13,6 +13,8 @@
     display: flex;
     gap: 50px;
 
+    align-items: center;
+
     transform: translateX(-50%);
 
     text-align: center;
@@ -30,6 +32,19 @@
     transform: scale(1.1);
     opacity: 0.8;
 }
+
+.ttk-logo {
+    width: 200px;
+    height: 200px;
+
+    object-fit: contain;
+
+    transition: 0.3s;
+}   
+.ttk-logo:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}   
 .hero-image {
     width: 100%;
     height: 90vh;
