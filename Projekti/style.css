@@ -149,6 +149,11 @@ body {
     background-attachment: fixed;
 }
 
+.card-img-top {
+    height: 400px;
+    object-fit: contain;
+}
+
 @media (max-width: 768px) {
     .navbar-nav {
         gap: 2px;
