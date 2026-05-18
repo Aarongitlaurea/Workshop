@@ -111,20 +111,21 @@
     margin-bottom: 20px;
     font-style: italic;
     color: #000000;
-    text-shadow: 0.01px 0.01px 0.02px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.1px 0.1px 0.2px rgba(97, 97, 97, 0.5);
 }
 .hero-text.about-us-text h2 {
     font-size: 2rem;
     margin-top: 30px;
     margin-bottom: 20px;
+    text-decoration-line: underline;
     color: #000000;
     text-shadow: 0.01px 0.01px 0.02px rgba(0, 0, 0, 0.5);
 }   
 .hero-text.about-us-text h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 30px;
     font-style: oblique;
-    color: #000000;
+    color: #050404;
     text-shadow: 0.01px 0.01px 0.02px rgba(0, 0, 0, 0.5);
 }
 
