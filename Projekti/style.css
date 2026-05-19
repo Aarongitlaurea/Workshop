@@ -428,8 +428,11 @@ body {
        width: 100%;
         height: 75vh;
         object-fit: cover;
-        object-position: 61% center;
         display: block;
+    }
+
+    .hero-home-image {
+        object-position: center 40%;
     }
 
     .hero-image.about-us-image {
@@ -504,6 +507,10 @@ body {
     
       .contact-hero {
         position: relative;
+    }
+
+    .contact-hero-image {
+        transform: none;
     }
 
     .contact-hero-text {
