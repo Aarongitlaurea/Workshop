@@ -530,6 +530,16 @@ body {
         text-align: left;
     }
 
+    .contact-hero-text a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        line-height: 1.5;
+        margin-bottom: 18px;
+        font-size: 0.6rem;
+    }
+
     
 
     .contact-hero-text h1,
