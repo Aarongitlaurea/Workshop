@@ -527,6 +527,28 @@ body {
 
         margin-bottom: 10px;
     }
+
+
+    .shows-layout {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .shows-section {
+        width: 55%;
+        padding: 15px;
+    }
+    .shows-side-image {
+        width: 45%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .show-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 }
 
 
