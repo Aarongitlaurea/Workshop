@@ -294,6 +294,17 @@ html, body {
     border-radius: 15px;
 }
 
+.social-hero-text a {
+    color: white;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.social-hero-text a:hover {
+    opacity: 0.7;
+}
+
 
 
 .contact-hero-text h1,
@@ -499,16 +510,14 @@ body {
 
     .social-hero-text {
         position: absolute;
-
         top: 10%;
-        right: 7%;
-
+        right: 5%;
         transform: none;
-
         width: 40%;
-
         text-align: left;
     }
+
+    
 
     .contact-hero-text h1,
     .social-hero-text h2 {
