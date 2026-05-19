@@ -450,7 +450,6 @@ body {
         right: 7%;
 
         transform: none;
-        word-break: auto;
 
         width: 40%;
 
@@ -475,11 +474,6 @@ body {
         margin-bottom: 10px;
     }
 }
-.contact-hero-text, h1 
-.social-hero-text h2 {
-        font-size: 1.2rem;
-    }   
-
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -572,6 +566,56 @@ body {
         height: 260px;
         object-fit: contain;
     }
+
+   .contact-hero {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .contact-hero-text {
+        position: absolute;
+
+        top: 20%;
+        left: 2%;
+
+        transform: none;
+
+        width: 40%;
+
+        text-align: left;
+    }
+
+    .social-hero-text {
+        position: absolute;
+
+        top: 20%;
+        right: 10px;
+        left: auto;
+
+        transform: none;
+
+        width: 40%;
+
+        text-align: left;
+    }
+
+    .contact-hero-text h1,
+    .social-hero-text h2 {
+
+        font-size: 2.2rem;
+
+        margin-bottom: 30px;
+    }
+
+    .contact-hero-text p,
+    .social-hero-text p {
+
+        font-size: 1rem;
+
+        line-height: 1.4;
+
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -579,5 +623,30 @@ body {
         height: 20vh;
         width: auto;
         margin-top: 400px;
+    }
+    .contact-hero-text {
+        position: absolute;
+
+        top: 20%;
+        left: 8%;
+
+        transform: none;
+
+        width: 40%;
+
+        text-align: left;
+    }
+    .social-hero-text {
+        position: absolute;
+
+        top: 20%;
+        right: auto;
+        left: auto;
+
+        transform: none;
+
+        width: 40%;
+
+        text-align: left;
     }
 }
