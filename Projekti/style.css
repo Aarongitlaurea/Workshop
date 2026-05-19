@@ -93,6 +93,7 @@ html, body {
 
 /* About Us page specific styles */
 
+
 .hero-image.about-us-image {
     height: 50%;
     width: 45%;
@@ -424,7 +425,61 @@ body {
         width: 200%;
         overflow-y: auto;
     }
+    
+      .contact-hero {
+        position: relative;
+    }
+
+    .contact-hero-text {
+        position: absolute;
+
+        top: 10%;
+        left: 0.1%;
+
+        transform: none;
+
+        width: 40%;
+
+        text-align: left;
+    }
+
+    .social-hero-text {
+        position: absolute;
+
+        top: 10%;
+        right: 7%;
+
+        transform: none;
+        word-break: auto;
+
+        width: 40%;
+
+        text-align: left;
+    }
+
+    .contact-hero-text h1,
+    .social-hero-text h2 {
+
+        font-size: 1.4rem;
+
+        margin-bottom: 30px;
+    }
+
+    .contact-hero-text p,
+    .social-hero-text p {
+
+        font-size: 0.65rem;
+
+        line-height: 1.4;
+
+        margin-bottom: 10px;
+    }
 }
+.contact-hero-text, h1 
+.social-hero-text h2 {
+        font-size: 1.2rem;
+    }   
+
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
