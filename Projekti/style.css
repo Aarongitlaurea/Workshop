@@ -1,6 +1,7 @@
 /* home page specific styles */
 html, body {
     overflow-x: hidden;
+    overflow-y: scroll
 }
 
 .hero {
@@ -141,8 +142,10 @@ html, body {
 /* merchandise page specific styles */
 
 .hero.merch-hero {
-    height: 20%;
+    height: 70vh;
     width: 100%;
+    position: relative;
+    overflow: hidden;
     object-fit: cover;
     box-shadow: 0 9px 18px rgba(0, 0, 0, 0.3);
 }
@@ -187,11 +190,19 @@ html, body {
     padding: 10px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    min-height: 105px;
+}
+
+.navbar-brand img {
+    height: 90px; 
+   
 }
 
     .navbar-nav {
-    gap: 150px;
-}
+        display: flex;
+       gap: 120px;
+    }
+
 
 /* backgorund color for all pages */
 body {
