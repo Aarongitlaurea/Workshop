@@ -535,6 +535,7 @@ body {
         line-height: 1.5;
         margin-bottom: 18px;
         font-size: 0.6rem;
+        text-shadow: #0e0e0e 3px 3px 4px;
     }
 
     
@@ -551,9 +552,8 @@ body {
     .social-hero-text p {
 
         font-size: 0.65rem;
-
         line-height: 1.4;
-
+        text-shadow: #0e0e0e 3px 3px 4px;
         margin-bottom: 10px;
     }
 
