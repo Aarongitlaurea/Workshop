@@ -129,6 +129,14 @@ html, body {
 
 /* merchandise page specific styles */
 
+.merch-image-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+    
+}
+
 .hero.merch-hero {
     height: 70vh;
     width: 100%;
@@ -526,11 +534,11 @@ body {
     }
     .hero-text.merch-hero-text h1 {
         font-size: 2.2rem;
-        margin-top: 350px;
+        margin-top: 200px;
     }   
     .hero-text.merch-hero-text p {
         font-size: 1rem;
-        margin-top: 500px;
+        margin-top: 300px;
         width: 200%;
         overflow-y: auto;
     }
@@ -630,6 +638,12 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
+    
+    .merch-image-wrapper {
+        bottom: 30px;
+
+    }
+    
 
 }
 
@@ -751,6 +765,10 @@ body {
 
         margin-bottom: 10px;
     }
+    .merch-image-wrapper {
+        bottom: 40px;
+        
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1920px) {
@@ -789,5 +807,10 @@ body {
         min-height: auto;
     }
 
+
+    .merch-image-wrapper {
+        bottom: 40px;
+        
+    }
   
 }
