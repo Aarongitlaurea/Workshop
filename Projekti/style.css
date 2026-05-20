@@ -430,11 +430,11 @@ body {
         height: 75vh;
         object-fit: cover;
         display: block;
+        object-position: center 80%;
+
     }
 
-    .hero-home-image {
-        object-position: center 40%;
-    }
+    
 
 
     .hero-links {
