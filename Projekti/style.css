@@ -480,6 +480,10 @@ body {
 
 /* mobile styles */
 @media (max-width: 762px) {
+    body {
+        background-attachment: scroll;
+    }
+
     .navbar-nav {
         gap: 2px;
     }
