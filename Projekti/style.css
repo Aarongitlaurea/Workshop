@@ -105,18 +105,14 @@ html, body {
 .about-text {
     width: 55%;
     min-height: 100vh;
-
     padding: 50px;
     box-sizing: border-box;
-
     color: #111;
-    
-
     position: static;
     transform: none;
     text-align: left;
-
     overflow-y: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-text h1 {
@@ -265,6 +261,8 @@ html, body {
     max-width: 320px;
     left: 5%;
     top: 50%;
+    background-color: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
     transform: translateY(-50%);
     text-align: left;
     max-width: 400px;
@@ -272,12 +270,14 @@ html, body {
     border-radius: 15px;
     font-size: 1.2rem;
     margin-bottom: 18px;
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.7);
 }
 
 .social-hero-text {
     position: absolute;
     max-width: 320px;
+    background-color: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
     right: 5%;
     left:auto;
     transform: translateY(-50%);
@@ -285,7 +285,7 @@ html, body {
     max-width: 400px;
     font-size: 1.2rem;
     margin-bottom: 18px;
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.7);
 
     
 
