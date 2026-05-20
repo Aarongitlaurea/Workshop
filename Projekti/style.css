@@ -888,3 +888,30 @@ body {
     }
   
 }
+
+@media (min-width: 751px) and (max-width: 1200px) {
+
+    .hero-logo {
+        height: 12vh;
+        margin-top: 45vh;
+    }
+
+    .hero-links {
+        bottom: 35px;
+        gap: 30px;
+    }
+
+    .social-logo {
+        width: 48px;
+        height: 48px;
+    }
+
+    .ttk-logo {
+        width: 130px;
+        height: auto;
+    }
+
+    .hero-text.home-hero-text p {
+        font-size: 1.2rem;
+    }
+}
