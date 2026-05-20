@@ -405,7 +405,7 @@ body {
 
 
 /* mobile styles */
-@media (max-width: 750px) {
+@media (max-width: 762px) {
     .navbar-nav {
         gap: 2px;
     }
@@ -700,7 +700,7 @@ body {
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1920px) {
     .hero-logo {
         height: 20vh;
         width: auto;
@@ -722,7 +722,7 @@ body {
         position: absolute;
 
         top: 20%;
-        right: auto;
+        right: 8%;
         left: auto;
 
         transform: none;
