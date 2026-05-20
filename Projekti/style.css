@@ -433,9 +433,10 @@ body {
         object-position: center 80%;
 
     }
+     .home-hero-image {
 
-    
-
+        object-position: 55% center
+    }
 
     .hero-links {
         width: 100%;
@@ -607,6 +608,7 @@ body {
         object-fit: cover;
         display: block;
     }
+
 
     .hero-links {
         bottom: 1px;
